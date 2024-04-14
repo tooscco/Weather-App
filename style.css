@@ -20,27 +20,29 @@
 
 .div-div-h2{
     font-size: 25px;
+    color: #ffffff;
 }
 
 .div-div-h3{
     font-size: 27px;
+    color: #ffffff;
 }
 
 .div-div-h4{
     margin-top: 15px;
     margin-bottom: 20px;
     font-size: 25px;
-    color: #e9e6e6;
+    color: #ffffff;
 }
 
 h5{
     font-size: 12px;
-    color: #dbd9d9;
+    color: #ffffff;
 }
 
 h6{
     font-size: 12px;
-    color: #d3d1d1;
+    color: #ffffff;
 }
 
 img{
@@ -77,6 +79,13 @@ input:focus{
 
 #errormsg{
     display: none;
+    border-radius: 5px;
+    padding: 5px 15px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    /* background: rgb(219, 30, 30); */
 }
 
 .div-fir-box{
@@ -91,4 +100,13 @@ input:focus{
 
 .div-to-flex{
     justify-content: space-between;
+}
+
+.divScript{
+    justify-content: center;
+}
+
+.p-div{
+    font-size: 10px;
+    color: #ffffff;
 }
