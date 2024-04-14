@@ -4,8 +4,10 @@
   checkCity = async () =>{
     if(city.value==0){
       errormsg.style.display= 'block'
+      showMeMap.style.display= 'none'
     }else {
       errormsg.style.display= 'none'
+      showMeMap.style.display= 'block'
     cityName = document.getElementById('city').value;
     API_key = '6f4a6efa830f5963874cbeade79e00e9'
   const  endpoint = `https://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=${API_key}`

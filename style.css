@@ -110,3 +110,18 @@ input:focus{
     font-size: 10px;
     color: #ffffff;
 }
+
+@media (max-width:480px){
+    input{
+        width: 69% !important;
+        padding: 15px 0px 0px 10px;
+    }
+    .div-fir-box p{
+        padding: 0px 50px 0px 0px;
+        text-align: center;
+    }
+    .div-fir-box h1{
+        text-align: center;
+        padding: 0px 50px 0px 0px;
+    }
+}
